@@ -50,6 +50,12 @@ ul {
   padding: 20px 25px;
   cursor: pointer;
 }
+.section-title {
+  font-size: 45px;
+  font-weight: 700;
+  color: var(--clr-dark-1);
+  margin-bottom: 24px;
+}
 
 /* 
 ====== Header Styles ====== 
@@ -151,8 +157,6 @@ nav {
   gap: 145px;
 }
 .features-title {
-  font-size: 45px;
-  color: var(--clr-dark-1);
   border-left: 5px solid var(--clr-primary);
   padding-left: 20px;
 }
@@ -191,4 +195,36 @@ article {
 .btn-secondary button p {
   font-size: 25px;
   font-weight: 500;
+}
+
+/* 
+====== Facts Styles ====== 
+*/
+.section-description {
+  max-width: 542px;
+  color: var(--clr-dark-3);
+}
+.facts-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-bottom: 180px;
+}
+.fact {
+  padding: 45px 35px 60px;
+  border: 1px solid var(--clr-primary);
+  border-radius: 8px;
+  text-align: center;
+}
+.fact-info h1 {
+  font-size: 45px;
+  font-weight: 600;
+  color: var(--clr-dark-2);
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.fact-info p {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--clr-dark-3);
 }
