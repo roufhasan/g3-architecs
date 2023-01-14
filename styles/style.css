@@ -1,0 +1,194 @@
+/*
+====== Fonts ====== 
+*/
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+
+/*
+====== Variables ====== 
+*/
+:root {
+  --ff-primary: "Work Sans", sans-serif;
+  --clr-primary: #ff900e;
+  --clr-white: #fff;
+  --clr-dark-1: #131313;
+  --clr-dark-2: #424242;
+  --clr-dark-3: #727272;
+}
+
+/*
+====== Global Styles ====== 
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--ff-primary);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+/* 
+====== Gloabal CSS ====== 
+*/
+.section-center {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.btn-primary {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--clr-white);
+  background: var(--clr-primary);
+  border: 0;
+  border-radius: 8px;
+  padding: 20px 25px;
+  cursor: pointer;
+}
+
+/* 
+====== Header Styles ====== 
+*/
+header {
+  background: rgba(255, 144, 14, 0.1);
+}
+
+/* 
+====== Navbar Styles ====== 
+*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0 100px;
+}
+.nav-title {
+  font-size: 45px;
+  color: var(--clr-dark-1);
+}
+.menu {
+  display: flex;
+}
+.menu li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--clr-dark-2);
+  margin-left: 70px;
+}
+
+/* 
+====== Banner Styles ====== 
+*/
+.banner-text-container {
+  text-align: center;
+}
+.banner-title {
+  font-size: 64px;
+  color: var(--clr-dark-1);
+}
+.banner-info {
+  max-width: 870px;
+  text-align: center;
+  color: var(--clr-dark-3);
+  margin: 40px auto 30px;
+}
+
+.banner-img {
+  margin-top: 50px;
+  padding-bottom: 45px;
+}
+.banner-img img {
+  width: 100%;
+  height: 700px;
+}
+
+/* 
+====== Quick Features Styles ====== 
+*/
+.features-quick-list {
+  display: flex;
+  align-items: center;
+  margin-top: 85px;
+}
+.quick-list-imgs {
+  margin-left: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.quick-list-info {
+  margin-left: 73px;
+}
+.quick-list-title {
+  font-size: 45px;
+  font-weight: 500;
+  max-width: 470px;
+}
+.quick-list-title .gray {
+  color: var(--clr-dark-3);
+}
+.quick-list-title .clr-primary {
+  color: var(--clr-primary);
+}
+.quick-list-description {
+  max-width: 540px;
+  margin: 25px 0 35px;
+}
+
+/* 
+====== Features Full Details Styles ====== 
+*/
+.features-details-container {
+  margin: 130px auto;
+  display: flex;
+  align-items: flex-end;
+  gap: 145px;
+}
+.features-title {
+  font-size: 45px;
+  color: var(--clr-dark-1);
+  border-left: 5px solid var(--clr-primary);
+  padding-left: 20px;
+}
+.features-description {
+  max-width: 585px;
+  color: var(--clr-dark-3);
+  margin: 24px 0 30px;
+}
+article {
+  margin-bottom: 20px;
+  padding: 30px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+.top-features-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--clr-dark-1);
+}
+.top-features-description {
+  color: var(--clr-dark-3);
+}
+.features-details-img {
+  position: relative;
+}
+.btn-secondary {
+  position: absolute;
+  left: -100px;
+  bottom: -70px;
+}
+.btn-secondary button {
+  font-size: 65px;
+  font-weight: 700;
+  padding: 46px 42px;
+}
+.btn-secondary button p {
+  font-size: 25px;
+  font-weight: 500;
+}
