@@ -86,7 +86,7 @@ nav {
   font-size: 18px;
   font-weight: 500;
   color: var(--clr-dark-2);
-  margin-left: 70px;
+  margin-right: 70px;
 }
 
 /* 
@@ -350,7 +350,7 @@ footer {
     align-items: center;
   }
   .menu li a {
-    margin-left: 0;
+    margin-right: 0;
   }
   /* --- Banner Styles --- */
   .banner-title {
